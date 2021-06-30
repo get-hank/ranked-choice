@@ -8,10 +8,11 @@ Decide the winner of a ranked-choice election according to the votes in
 ### Background
 
 In ranked-choice elections voters specify a prioritized list of their preferred
-candidates. When tallying the vote, the candidate with the fewest votes is
-eliminated. The next choice on the ballots for the eliminated candidate is then
-given a vote. This process is repeated until a candidate has a majority of the
-votes. You can read [more about ranked-choice
+candidates. After tallying the first-choice votes, the candidate with the fewest
+votes is eliminated. The next choice on the ballots for the eliminated candidate
+is then given a vote. This process is repeated either until a candidate has a
+majority of the votes or only two candidates remain. The candidate with the most
+votes at the end of this process wins. You can read [more about ranked-choice
 voting](https://en.wikipedia.org/wiki/Instant-runoff_voting) if you are so
 inclined, but this description should be sufficient to implement a solution.
 
