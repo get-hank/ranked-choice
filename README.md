@@ -26,6 +26,9 @@ inclined, but this description should be sufficient to implement a solution.
 - It is more important that you get to a working solution than a performant
   solution
 - Try not to spend more than a couple hours on this
+- Your response should be sent to us by email in either of the following formats:
+  - a PRIVATE github repo
+  - a tarball or zip of a directory
 
 ## Other stuff
 
